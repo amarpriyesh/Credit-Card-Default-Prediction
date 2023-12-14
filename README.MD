@@ -13,13 +13,17 @@ Datapoint is convert into natural sentence for LLMs to provide efficient represe
  
  
 Multi Model Ensemble Learning: In this method, we are combining multiple models such as Logistic Classifier, SVM, Random forest, SGD, leading to learning different data points distribution by different algorithms and effectively providing more generalised results which improves overall performance of credit prediction.[4]
+
 Deep Neural Network:  Multilayer deep neural network is used to learn non linear mapping of feature vectors to output. Multiple dense layers leading to learning of more intricate features extraction which passed to final decision boundary leads to improving overall efficiency of credit default classification.
+
 Diversity Models:
 Naive Bayes(Probabilistics): It is based on bayes’ theorem with assumption of features independence utilising Probabilistics based approach for classification.
 KNN (Non parametric):  It is a non-parametric model following majority rule by taking neighbourhood points into consideration while classification data points.
+
 Standard Models:
 Logistics Regression:  Binary classification using logistic function for accurately prediction probabilities of specific class to have efficient decision boundary.
 SVC: It maximised the decision boundary between data points of two different classes by transforming data points into representation spaces using various kernels. 
+
 Tree Based Models
 Random Forest: Combined multiple random decision trees combining different possibilities and providing more generalisation in the final credit decision. 
 XGBOOST: It is an efficient version of tree model using gradient boosting algorithm for providing overall optimization of trees at each incremental level.
